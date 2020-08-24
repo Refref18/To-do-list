@@ -1,0 +1,75 @@
+body {
+}
+
+.to-do-list {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.container {
+  width: 415px;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.add input {
+  padding: 10px 20px;
+  width: 260px;
+  border: 1px solid #f1f5f8;
+  color: #212121;
+  font-weight: 700;
+}
+
+.add button {
+  width: 100px;
+  background-color: #212121;
+  color: white;
+  border-radius: 4px;
+}
+
+.list {
+  width: 415px;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  cursor: pointer;
+  user-select: none;
+}
+
+.list .work {
+  padding: 10px 20px;
+  margin: 0px 0 5px;
+  background-color: #f1f5f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.list .work span {
+  padding-left: 10px;
+}
+
+.list .work #checkBox {
+  position: absolute;
+  left: 0;
+}
+
+.list i {
+  color: #9e9e9e;
+  cursor: pointer;
+}
+
+.list #delete:hover {
+  color: #e83232;
+}
